@@ -3,7 +3,7 @@ class Stack # LIFO
     attr_reader :stack
 
     def initialize
-        @stack = []
+        @stack = [] # Should be named differenty from 
     end
 
     def push(el)
@@ -20,6 +20,10 @@ class Stack # LIFO
 
     def peek
         @stack.last
+    end
+
+    def inspect # override the built in inspect
+        
     end
 
 end
