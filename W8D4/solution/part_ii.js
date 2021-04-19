@@ -8,6 +8,13 @@ function titleize(names, callback) {
   callback(titleized);
 };
 
+// function titleize(names, callback) {
+//   let titleized = names.map(function(name) {
+//     `Mx. ${name} Jingleheimer Schmidt`
+// }
+//   callback(titleized);
+// };
+
 // invoking the function
 titleize(["Mary", "Brian", "Leo"], (names) => {
   names.forEach(name => console.log(name));

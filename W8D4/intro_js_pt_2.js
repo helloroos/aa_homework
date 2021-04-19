@@ -14,3 +14,25 @@ titleize(["Mary", "Brian", "Leo"], (names) => {
 });
 
 titleize(["Mary", "Brian", "Leo"], callback);
+
+function.Elephant(name, height, tricks) {
+    this.name = name;
+    this.height = height;
+    this.tricks = tricks;
+}
+
+Elephant.prototype.trumpet = function() {
+    console.log(`${this.name} the elephant goes 'phrRRRRRRRRRRR!!!!!!!'`);
+};
+
+Elephant.prototype.grow = function() {
+    this.height = this.height + 12;
+};
+
+Elephant.prototype.addTrick = function() {
+    this.tricks = this.tricks.push('be free')
+};
+
+Elephant.prototype.play = function() {
+    
+}
