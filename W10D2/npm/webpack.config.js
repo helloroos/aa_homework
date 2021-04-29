@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
     entry: './entry.jsx',
     output: {
-        filename: './congrats.js',
+        filename: './dist/congrats.js',
     },
     module: {
         rules: [
